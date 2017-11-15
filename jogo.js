@@ -77,7 +77,7 @@ function estourar(e){
 
   var id_balao = e.id;
   //Corrigindo o Evento dos baloes
-  document.getElementById(id_balao).setAtrribute("onclick", "");
+  document.getElementById(id_balao).setAttribute("onclick", "");
 
   document.getElementById(id_balao).src = 'imagens/balao_azul_pequeno_estourado.png';
   pontucao(-1);
